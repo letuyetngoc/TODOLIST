@@ -15,4 +15,16 @@ export const Container = styled.div`
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
+    
+    @media (max-width: 991.98px) { 
+        width: 70%;
+    };
+    @media (max-width: 767.98px) { 
+        width:80%
+    };
+    @media (max-width: 575.98px) { 
+        width:100%
+     };
+
 `

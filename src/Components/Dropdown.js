@@ -3,6 +3,11 @@ import styled from 'styled-components'
 export const Dropdown = styled.select`
     width: 100%;
     height: 50px;
+    @media (max-width: 575.98px) { 
+        height: 40px;
+        font-size: 0.8rem;
+        padding: 5px;
+     };
     font-size: 100%;
     font-weight: bold;
     cursor: pointer;

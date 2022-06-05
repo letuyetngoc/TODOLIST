@@ -12,5 +12,9 @@ export const Button = styled.button`
         background-color:  ${props => props.theme.hoverBgColor} !important;
         border: 1px solid ${props => props.theme.borderHover};
     }
+    @media (max-width: 575.98px) { 
+        padding: 0.1rem 0.2rem;
+        font-size: 10px;
+     }
 
 `

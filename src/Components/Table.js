@@ -7,6 +7,10 @@ export const Table = styled.table`
     margin-bottom: 1rem;
     background-color: transparent;
     border-spacing: 2px;
+    font-size:1rem;
+    @media (max-width: 575.98px) { 
+        font-size:0.8rem;
+     };
     border-color: ${props => props.theme.borderButton};
 `
 export const Thead = styled.thead`
@@ -34,7 +38,6 @@ export const Th = styled.th`
     color: ${props => props.theme.color};
     border-top: 1px solid ${props => props.theme.borderButton};
     border-bottom: 1px solid ${props => props.theme.borderButton};
-    padding: 0.5rem;
-    
+    padding: 0.5rem;    
 
 `
